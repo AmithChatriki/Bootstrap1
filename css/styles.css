@@ -1,0 +1,181 @@
+
+body {
+  font-family: Perpetua,"Montserrat";
+  font-size: 1.2rem;
+}
+
+#title {
+  background-color: #CEE5D0;
+}
+
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-top: 40px;
+  color: #3A3845;
+}
+
+h2 {
+  font-family: Perpetua,"Montserrat";
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #161853
+}
+
+
+.container-fluid {
+  padding: 4% 15%;
+}
+
+.navbar {
+  padding-bottom: 4rem;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.navbar-brand {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 20%;
+  margin-left: 210px;
+  position: absolute;
+}
+
+.features-icon {
+  font-size: 2.5rem;
+  color: red;
+}
+
+.gossips {
+  padding-top: 40px;
+}
+
+#features {
+  padding: 9%  16%;
+  padding-top: 11%;
+  position: relative;
+}
+
+.textt {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #B1D7B4;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #7FB77E
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #90C8AC;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px 0px;
+}
+
+.carousel-item {
+  padding: 7% 16%;
+}
+
+#press {
+  background-color: #90C8AC;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 110px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: #90C8AC;
+  padding: 9% 16%;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.cta-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 5% 16%;
+  text-align: center;
+}
+
+.social-icons {
+  margin: 10px 10px 20px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px 40px;
+  }
+
+  .title-image {
+    position: static;
+    margin-left: auto;
+    width: 40%;
+    padding-top: 5%;
+  }
+
+  #features {
+    padding: 11% 16%;
+    position: relative;
+  }
+
+  .container-fluid {
+    padding: 6% 15%;
+  }
+
+  .carousel-item {
+    padding: 11% 16%;
+  }
+}
